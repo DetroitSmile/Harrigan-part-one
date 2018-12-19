@@ -1,0 +1,167 @@
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+
+html {font-family: fira sans;
+  background-color: #f0ecee;
+}
+img {
+  display: none;
+}
+.redMe {
+  color: #ff4850;
+}
+.redAdopting {
+  color: #ff4850;
+}
+a {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  color: #88898b;
+  font-size: 20px;
+}
+a:hover {
+  color: #ff4850
+}
+.how:hover {
+  background-color: #ccc
+}
+.how {
+  background-color: #ff4850;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  width: auto;
+  text-decoration: none;
+}
+.us:hover {
+  background-color: #ccc
+}
+.us {
+  background-color: #ff4850;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  width: auto;
+  text-decoration: none;
+}
+.flex.container {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+ul {
+  list-style-type: none;
+  margin: 12 3px 9 6px;
+  padding: 0;
+}
+p {
+  text-align: left;
+}
+h2 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+@media only screen and (min-width: 768px) {
+
+  body {
+    background-color: inherit;
+    background-image: url(bulldog.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  html {
+    font-family: fira sans;
+    background-color: #f0ecee;
+  }
+  
+  .redMe {
+    color: #ff4850;
+  }
+  
+  h1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+  }
+  
+  h2 {
+    padding: 40px 0 40px 0;
+    margin: 100px 100px 50px 0;
+  }
+  .nav-item {
+    color: #88898b;
+    display: inline;
+    margin: 10px;
+  }
+
+  a:hover {
+    color: #ff4850
+  }
+  
+  a {
+    color: #88898b;
+    text-decoration: none;
+    align-content: right;
+  }
+  
+  .redAdopting {
+    color: #ff4850
+  }
+  
+  .how:hover {
+    background-color: #ccc
+  }
+  
+  .how {
+    background-color: #ff4850;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    padding: 15px;
+    width: auto;
+    margin: 0 100px 100px 0;
+  }
+
+  .us:hover {
+    background-color: #ccc
+  }
+
+  .us {
+    background-color: #ff4850;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    padding: 15px;
+    width: auto;
+    float: right;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 12 3px 9 6px;
+    padding: 0;
+    display: flex;
+    float: right;
+  }
+
+  .flex-container {
+    align-content: space-around;
+    align-items: baseline;
+    display: flex;
+    flex-flow: noWrap;
+    justify-content: flex-end;
+  }
+
+  p {
+    font-size: 20px;
+    margin: 0 0 15px 0;
+    color: #88898b;
+  }
